@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@700&family=Montserrat:ital,wght@1,500&display=swap");
+@import "fontawesome-free-5.15.3-web/scss/fontawesome.scss";
+
+body {
+    background-image: url("../assets/img/back-hollow.jpg");
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    height: 7rem;
+    justify-content: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    transition: top 0.3s !important;
+}
+.profile {
+    max-height: 10rem;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+section {
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10rem 1rem 5rem 1rem;
+    border-radius: 10%;
+    margin: 1rem;
+}
+p,
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Monda", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.text-intro {
+    font-family: "Montserrat", sans-serif;
+}
+.color-key {
+    color: #c0fa2b;
+}
+.social-icons .social-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #fff;
+    color: #486786;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+
+.slideUp {
+    animation: slideUp 0.3s forwards ease-out;
+}
+.slideDown {
+    animation: slideDown 0.3s forwards ease-out;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-170px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
