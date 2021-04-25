@@ -7,12 +7,17 @@ body {
     display: flex;
     justify-content: center;
 }
+html, body{
+    height: 100%;
+    margin: 0;
+}
 .navbar {
-    height: 7rem;
+    height: 6rem;
     justify-content: center;
     display: flex;
     background: rgba(0, 0, 0, 0.4);
     transition: top 0.3s !important;
+    margin-bottom: 6rem;
 }
 .profile {
     max-height: 10rem;
@@ -21,11 +26,10 @@ body {
 }
 section {
     color: white;
+    height: 100vh;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
     background-color: #000000;
     background: rgba(0, 0, 0, 0.3);
     padding: 10rem 1rem 5rem 1rem;
@@ -39,6 +43,9 @@ h1 {
     font-family: "Monda", sans-serif;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+}
+.reference-intro {
+    text-align: end;
 }
 .text-intro {
     font-family: "Montserrat", sans-serif;
@@ -59,8 +66,6 @@ h1 {
     margin-right: 1.5rem;
 }
 
-
-
 .slideUp {
     animation: slideUp 0.3s forwards ease-out;
 }
@@ -72,7 +77,7 @@ h1 {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-100px);
+        transform: translateY(-170px);
     }
 }
 @keyframes slideDown {
