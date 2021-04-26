@@ -20,3 +20,4 @@ $(window).on("scroll", function(){
     }
     beforeScroll = afterScroll;
   });
+
