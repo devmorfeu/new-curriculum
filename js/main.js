@@ -5,7 +5,7 @@ var $navbar = $('.navbar');
 $(function () {
   $.scrollify({
     section: ".example-classname",
-    scrollSpeed: 20,
+    scrollSpeed: 40,
     scrollbars: false
   });
 });

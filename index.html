@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="main" data-fs-scroll>
+    <div class="container-fluid p-0" id="main" data-fs-scroll>
         <div class="row">
             <div class="d-flex flex-column justify-content-center">
                 <section class="d-flex justify-content-center example-classname flex-column">
@@ -31,24 +31,57 @@
                         </div>
                     </div>
                 </section>
-                <section class="section d-flex justify-content-center example-classname">
-                    <div class="box col-12">
-                        <h2><span class="color-key">{</span>P<span class="color-key">}</span>rojetos</h2>
+                <section class="d-flex justify-content-center example-classname flex-column">
+                    <div class="box col-12 text-center">
+                        <h2 class="mb-5">Projetos</h2>
                         <div class="row justify-content-sm-center justify-content-md-center">
-                            <div class="box-info justify-content-between">
-                                <h3 class="sub-title">Densenvolvedor Java</h3>
-                                <div class="d-flex flex-row justify-content-between">
-                                    <span>Itaú Unibanco</span>
-                                    <span>Agosto 2019 - Atual</span>
+                            <div id="carouselProjects" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
                                 </div>
-                                <p class="text-description">Atuação na área de pagamentos,
-                                    desenvolvimento de API's e
-                                    modernização de sistemas legados</p>
+                                <div class="carousel-inner text-center pb-3">
+                                    <div class="carousel-item active">
+                                        <div class="pb-5">
+                                            <img src="assets/img/project-01.svg" alt="logo do projeto">
+                                            <p>Projeto realizado atraves do curso da rocketseat</p>
+                                            <a href="https://github.com/devmorfeu/be-the-hero" target="_blank"><button class="learn-more">GitHub</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="pb-5">
+                                            <img src="assets/img/project-01.svg" alt="logo do projeto">
+                                            <p>Projeto realizado atraves do curso da rocketseat</p>
+                                            <button  class="learn-more">GitHub</button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="pb-5">
+                                            <img src="assets/img/project-01.svg" alt="logo do projeto">
+                                            <p>Projeto realizado atraves do curso da rocketseat</p>
+                                            <button class="learn-more">GitHub</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="section d-flex justify-content-center example-classname">
+                <section class="d-flex justify-content-center example-classname">
                     <div class="box col-12">
                         <h2><span class="color-key">{</span>H<span class="color-key">}</span>abilidades</h2>
                         <div class="row justify-content-sm-center justify-content-md-center">
@@ -86,7 +119,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section d-flex justify-content-center example-classname">
+                <section class="d-flex justify-content-center example-classname">
                     <div class="box col-12">
                         <h2><span class="color-key">{</span>C<span class="color-key">}</span>ertificados</h2>
                         <div class="row justify-content-sm-center justify-content-md-center">
@@ -150,7 +183,8 @@
                                 class="fab fa-instagram"></i></a>
                     </div>
                 </footer>
-                <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+                <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+                        class="fas fa-chevron-up"></i></a>
             </div>
         </div>
     </div>
