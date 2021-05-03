@@ -7,7 +7,6 @@ Tecnologias utilizadas:
   > SASS |
   > JAVASCRIPT 
  
- 
 <p align="center">
   <br>
   <samp>
@@ -21,3 +20,4 @@ Tecnologias utilizadas:
   ![alt text](assets/img/img-readme/projects.PNG)
    ![alt text](assets/img/img-readme/skills.PNG)
     ![alt text](assets/img/img-readme/kcerts.PNG)
+
